@@ -1,4 +1,4 @@
-# LowLightImageEnhancement
+# Low-Light Image Enhancement
 A modified implementation of the "LIME" algorithm for improving the visibility of low-light images.
 
 Images taken in low-light conditions suffer from low visibility. This problem degrades the visual aesthetics of those images and damages the performance of machine vision methods that use those images. To solve this problem, using the retinex model, I will estimate an illumination map. This illumination map can be further refined using an iterative optimization solution proposed in [1] to create a robust tool for dealing with low-light images. This project aimed to recover the hidden information  buried in darker regions of the captured images, and it was achieved by implementing the LIME algorithm [1]. This project  enhanced the illumination of various challenging low-light pictures while preserving the structure and smoothing textural details.
